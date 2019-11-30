@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := kenzo
+PRODUCT_RELEASE_NAME := PB2PRO
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
@@ -12,8 +12,8 @@ PRODUCT_PACKAGES += \
 	charger
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := kenzo
-PRODUCT_NAME := omni_kenzo
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Note 3
-PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_DEVICE := PB2PRO
+PRODUCT_NAME := omni_PB2PRO
+PRODUCT_BRAND := Lenovo
+PRODUCT_MODEL := Phab 2 Pro
+PRODUCT_MANUFACTURER := Lenovo
